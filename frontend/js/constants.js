@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Dating Alien Club NFT Collection!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Dating Alien CLub NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'The Dating Alien CLub NFT Project is a decentralized, open-source project. Limited collection of 1,111 NFTs consisting of Aliens, men and women trying to blend in to everyday life and are ready to start dating ';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
