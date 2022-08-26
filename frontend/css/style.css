@@ -9,7 +9,6 @@
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #7173797e;
-  --bg-image: url(images/background/digital-image-Western-Hemisphere-Earth.webp);
   --bg-color-transparent: #3c3c3c80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
@@ -26,6 +25,7 @@
 
 body {
   background-color: var(--bg-color);
+  background-image: url(images/background/digital-image-Western-Hemisphere-Earth.webp);
   display: flex;
   flex-flow: column;
   height: 100vh;
