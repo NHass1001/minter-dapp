@@ -42,14 +42,6 @@ body {
   overflow: hidden;
 }
 
-.logo {
-  display: flex;
-  flex-direction: column;
-  max-width: 960px;
-  margin: 0 auto;
-  justify-content: left;
-  overflow: hidden;
-}
 
 /* HEADER */
 
