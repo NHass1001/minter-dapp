@@ -38,7 +38,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
-  justify-content: center;
+  justify-content: left;
   overflow: hidden;
 }
 
@@ -57,7 +57,7 @@ header .container {
 
 .menu {
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
   align-items: center;
 }
 
