@@ -30,10 +30,12 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  margin: 0px
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
@@ -58,9 +60,51 @@ header .container {
 
 .menu {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+  align-items: right;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
   align-items: center;
 }
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 10px;
+    font-size: 0.9em;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  colr: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black
+}
+
+.nav-link-wrapper a:hover {
+  color: black
+}
+
+
 
 /* NOT CONNECTED */
 .not-connected {
@@ -114,7 +158,7 @@ header .container {
   transition: all 0.3s ease;
   box-shadow: var(--header-shadow);
   cursor: pointer;
-  position: relative;
+  position: centre;
   text-decoration: none;
   outline: none;
 }
@@ -319,14 +363,14 @@ section {
 
 .splide {
   position: absolute;
-  top: 90px;
+  top: 200px;
   left: 5rem;
   z-index: -1;
 }
 
 .splide__slide {
   border: var(--accent-color) solid;
-  border-width: 5px 10px;
+  border-width: 4px 8px;
 }
 
 .splide__slide img {
