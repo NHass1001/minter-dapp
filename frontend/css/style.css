@@ -10,7 +10,7 @@
   --font-code: "Roboto", monospace;
   --bg-color: #717379;
   --bg-color-transparent: #3c3c3c80;
-  --font-color: #ffffff;
+  --font-color: #9f0e0e;
   --btn-bg-color: #ffffff;
   --accent-color: #43d554bd;
   --header-shadow: var(--accent-color) 0px 0px 5px;
@@ -37,7 +37,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: right;
@@ -91,7 +91,7 @@ header .container {
 }
 
 .nav-link-wrapper a {
-  colr: #8a8a8a;
+  color: #8a8a8a;
   text-decoration: none;
   transition: color 0.5s;
 }
@@ -441,5 +441,27 @@ section {
 }
 
 
-/* PORTFOLIO STYLES */
+/* ROADMAP STYLES */
 
+.two-column-wrapper {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto 0 35vw;
+  opacity: 0;
+}
+
+.profile-content-wrapper {
+  padding: 500px
+}
+
+.profile-content-wrapper h1 {
+  color: rgb(190, 248, 28);
+}
