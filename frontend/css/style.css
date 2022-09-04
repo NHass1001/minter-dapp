@@ -13,7 +13,6 @@
   --font-color: #a8c5add6;
   --btn-bg-color: #ffffff;
   --accent-color: #43d554bd;
-  --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
 
@@ -39,8 +38,9 @@ body {
   flex-direction: column;
   width: 1024px;
   margin: 0 auto;
-  padding: 1rem 2rem;
-  justify-content: right;
+  padding-left: 2px;
+  padding-right: 2px;
+  justify-content: center;
   overflow: hidden;
 }
 
@@ -55,7 +55,7 @@ header {
 header .container {
   flex-direction: row;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   width: 1024px;
 }
 
@@ -65,10 +65,30 @@ header .container {
   align-items: right;
 }
 
+main {
+
+  height: 1200px;
+  text-align: center;
+  padding-top: 1px;
+  padding-left: 240;
+  padding-right: 240;
+
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0);
+  height: 40px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+}
+
 .nav-wrapper {
   display: flex;
-  justify-content: space-between;
-  padding: 38px;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
   align-items: center;
 }
 
@@ -78,10 +98,11 @@ header .container {
 }
 
 .nav-wrapper > .left-side > div {
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     font-size: 0.9em;
     align-items: center;
-    text-transform: uppercase;
+    text-transform: lowercase;
 
 }
 
@@ -172,7 +193,7 @@ header .container {
 
 .wallet-btn {
   border-radius: 5rem;
-  margin-left: 2rem;
+  margin-left: 80rem;
   border-color: transparent;
 }
 
