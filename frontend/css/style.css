@@ -87,8 +87,8 @@ nav {
 .nav-wrapper {
   display: flex;
   justify-content: space-evenly;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 90x;
+  padding-right: 90px;
   align-items: center;
 }
 
