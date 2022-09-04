@@ -6,53 +6,194 @@ body {
 
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
     width: 1024px;
+    margin: 0 auto;
+    padding-left: 2px;
+    padding-right: 2px;
+    justify-content: center;
+    overflow: hidden;
 }
 
 
 
 header {
+    background-color: var(--bg-color);
+    box-shadow: var(--header-shadow);
+  }
 
-    height: 118px;
-    text-align: center;
-
-
-}
+header .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+  }
 
 nav {
-    background-color: rgb(243, 6, 65);
+    background-color: rgba(0, 0, 0, 0.077);
     height: 40px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
 
 }
 
 main {
 
-    height: 1000px;
+    height: 1200px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-left: 240;
     padding-right: 240;
 
 }
 
 footer {
-    background-color: rgb(164, 243, 6);
-    height: 100px;
-
+    background-color: rgba(0, 0, 0, 0.077);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
 h1 {
-    font-size: 84px;
+    font-size: 70px;
     color: #43d554bd;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 p {
-    font-size: 40px;
+    font-size: 20px;
     color: rgb(255, 251, 247);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 
 }
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 253, 253);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color:darkgray;
+    
+}
+
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-wrapper > .left-side > div {
+      margin-right: 5px;
+      margin-left: 5px;
+      font-size: 0.9em;
+      align-items: center;
+      text-transform: uppercase;
+  
+  }
+  
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black
+  }
+
+  .menu {
+    display: flex;
+    gap: 1rem;
+    align-items: right;
+  }
+
+  /* MINTED CONTAINER */
+
+.minted-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .minted-container h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .minted-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .minted-container p {
+    margin: 1rem 0;
+  }
+
+  /* BUTTONS */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--btn-bg-color);
+    color: var(--accent-color);
+    font-family: var(--font-secondary);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    box-shadow: var(--header-shadow);
+    cursor: pointer;
+    position: centre;
+    text-decoration: none;
+    outline: none;
+  }
+  .btn:hover {
+    box-shadow: none;
+  }
+  .btn:disabled {
+    cursor: default;
+  }
+  
+  .wallet-btn {
+    border-radius: 5rem;
+    margin-left: 2rem;
+    border-color: transparent;
+  }
+  
+  .hero-btn {
+    border-radius: 4px;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+  }
+

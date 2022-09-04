@@ -27,7 +27,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 100vh;
+  height: 1200px;
   color: var(--font-color);
   font-family: var(--font-primary);
   margin: 0px
@@ -37,7 +37,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   flex-direction: column;
-  max-width: 1024px;
+  width: 1024px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: right;
@@ -56,6 +56,7 @@ header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: left;
+  width: 1024px;
 }
 
 .menu {
