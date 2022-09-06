@@ -3,19 +3,17 @@ body {
     background-color: #717379;
 }
 
-
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    flex-direction: column;
-    font-size: 16px;
-    width: 1024px;
-    margin: 0 auto;
-    padding-left: 2px;
-    padding-right: 2px;
-    justify-content: center;
-    overflow: hidden;
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: column;
+  font-size: 16px;
+  width: 1024px;
+  margin: 0 auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  justify-content: center;
+  overflow: hidden;
 }
 
 
@@ -44,7 +42,7 @@ nav {
 
 main {
 
-    height: 1000px;
+    height: 100px;
     text-align: center;
     padding-top: 1px;
     padding-left: 240;
@@ -53,7 +51,7 @@ main {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.077);
+    background-color: #717379;
     padding-top: 20px;
     padding-bottom: 20px;
 }

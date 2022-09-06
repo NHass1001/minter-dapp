@@ -42,7 +42,7 @@ nav {
 
 main {
 
-    height: 1200px;
+    height: 900px;
     text-align: center;
     padding-top: 1px;
     padding-left: 240;
@@ -51,7 +51,7 @@ main {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.077);
+    background-color: #717379;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -219,8 +219,8 @@ footer p {
 
   section{
     width: 100%;
-    height: 100vh;
-    background-color: rgb(78, 78, 78);
+    height: 80vh;
+    background-color: #717379;;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -229,8 +229,8 @@ footer p {
   .container{
     width: 1024px;
     max-width: 80rem;
-    margin: 10 auto;
-    padding: 0 1.5rem;
+    margin: 8 auto;
+    padding: 0 1.9rem;
   }
 
 
@@ -244,7 +244,7 @@ footer p {
 }
 
 .accordion-link{
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   color: rgba(255, 255, 255, .8);
   text-decoration: none;
   background-color: #14e1474d;
@@ -252,7 +252,7 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 2rem 0;
 
 
 }
@@ -289,7 +289,7 @@ footer p {
 
 .answer p{
   color: rgba(255, 255, 255, .6);
-  font-size: 1.4rem;;
+  font-size: 1.9rem;;
   padding: 2rem;
 
 }
