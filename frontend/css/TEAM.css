@@ -1,7 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 
 body {
     background-color: #717379;
+    font-family: 'Oswald', sans-serif;
 }
+
+.wrapper{
+  margin-top: 10%;
+
+}
+
+.wrapper h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center; 
+}
+
+.team{
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #9e2424;
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
 
 .container1 {
   display: grid;
