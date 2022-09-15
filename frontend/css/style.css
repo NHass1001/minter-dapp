@@ -26,7 +26,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 1200px;
+  height: 1000px;
   color: var(--font-color);
   font-family: var(--font-primary);
   margin: 0px
@@ -386,7 +386,7 @@ section {
 
 .splide {
   position: absolute;
-  top: 200px;
+  top: 180px;;
   left: 5rem;
   z-index: -1;
 }
@@ -398,6 +398,7 @@ section {
 
 .splide__slide img {
   width: 100%;
+  height: 100%;
 }
 
 /* SPINNER */
