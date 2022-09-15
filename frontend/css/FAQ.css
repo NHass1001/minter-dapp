@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 
 body {
     background-color: #717379;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .container1 {
   display: grid;
   grid-template-columns: 1fr;
   flex-direction: column;
-  font-size: 16px;
+  font-size: 18px;
   width: 1024px;
   margin: 0 auto;
   padding-left: 2px;
@@ -35,8 +37,8 @@ nav {
     background-color: rgba(0, 0, 0, 0);
     height: 40px;
     text-align: center;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 
 }
 
