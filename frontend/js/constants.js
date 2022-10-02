@@ -1,4 +1,4 @@
-const contractAddress = "0xFF2f2165f17243D54e8d5F77c78607a67F2ccF0E"; // Replace with your own contract address
+const contractAddress = "0x7576bEf5771Fb3d5Cf144e3B749230db57912B2E"; // Replace with your own contract address
 const chain = 'ethereum'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Limited Dating Alien Club NFT Collection!!";
